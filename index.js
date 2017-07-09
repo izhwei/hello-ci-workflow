@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
   res.send('Hello World! git checkout test-github-flow');
 });
 
-var server = app.listen(2999, function () {
+var server = app.listen(3000, function () {
 
 var host = server.address().address;
 var port = server.address().port;
