@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World! git checkout test-github-flow');
+  res.send('Hello World! env-development');
 });
 
 var server = app.listen(3000, function () {
